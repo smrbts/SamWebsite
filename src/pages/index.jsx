@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/headshot.png'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -63,40 +63,40 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Sam Roberts.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm a full-stack developer who specializes in front end development and creative design. </Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Rover Rentals"
+            link="https://www.youtube.com/watch?v=HZ3nWTit9C0"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            A dog walking React Native application to help overcrowding in animal shelters.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Fantasy Baseball Manager"
+            link="https://www.youtube.com/watch?v=BnaCZ3Ewpb4&t=2s"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Create your own dynasty fantasy MLB squad with live-time stats. Made with PERN stack.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Mountain Runner"
+            link="https://www.youtube.com/watch?v=BXVm_ANohDQ"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            A video game enthusiast's 2D Retro side scroller made with vanilla JS, HTML, and CSS.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Professor Oak's Handbook"
+            link="https://www.youtube.com/watch?v=0ztxrFiRIHQ&t=9s"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            A Pokemon master's reference book, complete with a quiz! Made with Ruby on Rails, HTML, and CSS.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -105,32 +105,29 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I'm a full stack developer who enjoys creating applications that look great and get the job done. I would
+            love to bring my passion for creativity and code to a knowledgeable team.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          My professional background is rooted in healthcare, and more specifically, healthcare supply chain
+          applications. I bring over 5 years of experience dealing with customers and business operations, most recently
+          for a startup in Texas. Although I was good at what I did, making money for the company and keeping my
+          customers happy, I yearned for a role that satisfied my creative mind and love for technology and design. What
+          started as working for a few hours a night in Unity, making video games after my day job had ended for the
+          day, led me to take a risk and quit my stable, safe job to pursue my passions.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
-          <Title>Get in touch</Title>
+          <Title>Contact Me</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:samueljustinroberts@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/smrbts">Github</a> &{' '}
+            <a href="https://www.linkedin.com/in/sam-roberts-/">LinkedIn</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">GitHub Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
-        </Footer>
+        <Footer>&copy; 2019 by Sam Roberts</Footer>
       </Contact>
     </Parallax>
   </>
