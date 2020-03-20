@@ -101,7 +101,7 @@ const Index = () => (
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About</Title>
+        <Title>About Sam</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
@@ -110,12 +110,13 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          My professional background is rooted in healthcare, and more specifically, healthcare supply chain
-          applications. I bring over 5 years of experience dealing with customers and business operations, most recently
-          for a startup in Texas. Although I was good at what I did, making money for the company and keeping my
-          customers happy, I yearned for a role that satisfied my creative mind and love for technology and design. What
-          started as working for a few hours a night in Unity, making video games after my day job had ended for the
-          day, led me to take a risk and quit my stable, safe job to pursue my passions.
+          What started as working for a few hours a night in Unity, making video games after my day job had ended for
+          the day, led me to take a risk and dive head first into the world of software development. After a few months
+          of self-teaching, I enhanced my learning efforts by graduating from Flatiron's codsing bootcamp. Fast forward
+          several months, and I am helping build applications for the world's supermajor oil operators. These days I
+          primarily write a lot of JavaScript using Vue.JS and C# on the backend, but I have experience and familiarity
+          with React, Ruby, Node, and SQL to name a few. Some of my hobbies include video games, ping pong, and rock
+          climbing.
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -127,7 +128,7 @@ const Index = () => (
             <a href="https://www.linkedin.com/in/sam-roberts-/">LinkedIn</a>
           </ContactText>
         </Inner>
-        <Footer>&copy; 2019 by Sam Roberts</Footer>
+        <Footer>&copy; 2020 by Sam Roberts</Footer>
       </Contact>
     </Parallax>
   </>
