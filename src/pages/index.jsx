@@ -112,7 +112,7 @@ const Index = () => (
         <AboutDesc>
           What started as working for a few hours a night in Unity, making video games after my day job had ended for
           the day, led me to take a risk and dive head first into the world of software development. After a few months
-          of self-teaching, I enhanced my learning efforts by graduating from Flatiron's codsing bootcamp. Fast forward
+          of self-teaching, I enhanced my learning efforts by graduating from Flatiron's coding bootcamp. Fast forward
           several months, and I am helping build applications for the world's supermajor oil operators. These days I
           primarily write a lot of JavaScript using Vue.JS and C# on the backend, but I have experience and familiarity
           with React, Ruby, Node, and SQL to name a few. Some of my hobbies include video games, ping pong, and rock
