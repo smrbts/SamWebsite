@@ -10,12 +10,12 @@ module.exports = {
   siteUrl: 'https://samroberts.us', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
-  siteDescription: 'Playful & Colorful One-Page website with Parallax effect',
+  siteDescription: 'Portfolio for Houston-based Javascript developer Sam Roberts ',
   author: 'LekoArts', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@smrbts92', // Twitter Username
-  ogSiteName: 'sam', // Facebook Site Name
+  ogSiteName: 'Sam Roberts', // Facebook Site Name
   ogLanguage: 'en_US', // Facebook Language
   googleAnalyticsID: 'UA-47519312-5',
 
