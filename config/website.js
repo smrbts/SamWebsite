@@ -9,7 +9,7 @@ module.exports = {
   siteHeadline: 'Creating beautiful components and developing solutions', // Headline for schema.org JSONLD
   siteUrl: 'https://samroberts.us', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: '/src/images/preview.png', // Used for SEO and manifest
+  siteLogo: '/preview.png', // Used for SEO and manifest
   siteDescription: 'Portfolio for Houston-based Javascript developer Sam Roberts ',
   author: 'LekoArts', // Author for schema.org JSONLD
 
