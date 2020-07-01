@@ -92,7 +92,7 @@ const SEO = () => {
       <meta name="msapplication-TileColor" content={config.backgroundColor} />
       <meta name="msapplication-config" content="browserconfig.xml" />
       <meta name="description" content={description} />
-      <meta name="image" content={image} />
+      <meta name="image" property="og:image" content={image} />
       <meta property="og:locale" content={config.ogLanguage} />
       <meta property="og:site_name" content={config.ogSiteName} />
       <meta property="og:title" content={title} />
