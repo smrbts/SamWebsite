@@ -105,18 +105,24 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            I'm a full stack developer who enjoys creating applications that look great and get the job done. I would
-            love to bring my passion for creativity and code to a knowledgeable team.
+            I'm a full stack developer who enjoys creating applications that look great and get the job done. I love
+            technology and working with a team to make a difference.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          What started as working for a few hours a night in Unity, making video games after my day job had ended for
-          the day, led me to take a risk and dive head first into the world of software development. After a few months
-          of self-teaching, I enhanced my learning efforts by graduating from Flatiron's coding bootcamp. Fast forward
-          several months, and I am helping build applications for the world's supermajor oil operators. These days I
-          primarily write a lot of JavaScript using Vue.JS and C# on the backend, but I have experience and familiarity
-          with React, Ruby, Node, and SQL to name a few. Some of my hobbies include video games, ping pong, and rock
-          climbing.
+          What started as working for a few hours a night in Unity, making video games after my job had ended for the
+          day, led me to take a risk and dive head first into the world of software development. After a few months of
+          of self-teaching, I enhanced my learning efforts by graduating from Flatiron's coding bootcamp.
+          <br />
+          <br />
+          Fast forward a few years, and I have helped build applications for supermajor oil operators as well as writing
+          code to redefine how children can become empowered learners. These days I primarily write a lot of JavaScript
+          using React, Node, and Meteor but I have experience and familiarity with tech such as: Vue.js, Ruby on Rails,
+          C#, Cypress E2E testing, Mongo and SQL.
+          <br />
+          <br />
+          Some of my hobbies include video games, ping pong, and rock climbing. I love my family and our three pets: Zu,
+          Violet, and Jax.
         </AboutDesc>
       </About>
       <Contact offset={4}>
