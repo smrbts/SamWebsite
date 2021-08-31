@@ -65,7 +65,10 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Sam Roberts.
         </BigTitle>
-        <Subtitle>I'm a full-stack developer who specializes in front end development and creative design. </Subtitle>
+        <Subtitle>
+          I'm a software engineer with a strong interest in product and domain driven design. <br /> 
+          I'm committed to test driven development and pair-programming. 
+        </Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -134,7 +137,7 @@ const Index = () => (
             <a href="https://www.linkedin.com/in/sam-roberts-/">LinkedIn</a>
           </ContactText>
         </Inner>
-        <Footer>&copy; 2020 by Sam Roberts</Footer>
+        <Footer>&copy; 2021 by Sam Roberts</Footer>
       </Contact>
     </Parallax>
   </>
